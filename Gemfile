@@ -5,6 +5,7 @@ ruby '2.4.1'
 gem "rails", git: "https://github.com/rails/rails", branch: "5-1-stable"
 
 gem "decidim", git: "https://github.com/decidim/decidim", branch: "feature/assemblies"
+gem "decidim-assemblies", git: "https://github.com/decidim/decidim", branch: "feature/assemblies"
 
 
 gem 'puma', '~> 3.0'
