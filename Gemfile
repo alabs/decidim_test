@@ -2,10 +2,10 @@ source "https://rubygems.org"
 
 ruby '2.4.1'
 
-gem "rails", git: "https://github.com/rails/rails", branch: "5-1-stable"
+gem "rails"
 
-gem "decidim", git: "https://github.com/decidim/decidim", branch: "feature/assemblies", ref: "5fb17d23f9824727586eab5f5277800a2f86a9c2"
-gem "decidim-assemblies", git: "https://github.com/decidim/decidim", branch: "feature/assemblies", ref: "5fb17d23f9824727586eab5f5277800a2f86a9c2"
+gem "decidim", git: "https://github.com/decidim/decidim", branch: "feature/assemblies"
+gem "decidim-assemblies", git: "https://github.com/decidim/decidim", branch: "feature/assemblies"
 
 
 gem 'puma', '~> 3.0'
