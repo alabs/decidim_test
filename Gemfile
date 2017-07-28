@@ -11,6 +11,7 @@ gem "decidim-assemblies", git: "https://github.com/decidim/decidim", branch: "fe
 gem 'puma', '~> 3.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'faker', '~> 1.7.3'
+gem 'rails_12factor'
 
 group :development, :test do
   gem 'byebug', platform: :mri
