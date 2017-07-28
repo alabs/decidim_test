@@ -19,5 +19,4 @@
 .byebug_history
 
 # Ignore public uploads
-public/uploads/public/packs
-/node_modules
+public/uploads
