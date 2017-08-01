@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 ruby '2.4.1'
 
-gem "rails", "5.1.3.rc2"
+gem "rails", "5.1.3.rc3"
 
 gem "decidim", git: "https://github.com/decidim/decidim", branch: "feature/assemblies"
 gem "decidim-assemblies", git: "https://github.com/decidim/decidim", branch: "feature/assemblies"
