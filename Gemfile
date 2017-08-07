@@ -2,11 +2,10 @@ source "https://rubygems.org"
 
 ruby '2.4.1'
 
-gem "rails", "5.1.3.rc3"
+gem "rails", "5.1.3"
 
 gem "decidim", git: "https://github.com/decidim/decidim", branch: "feature/assemblies"
 gem "decidim-assemblies", git: "https://github.com/decidim/decidim", branch: "feature/assemblies"
-
 
 gem 'puma', '~> 3.0'
 gem 'uglifier', '>= 1.3.0'
